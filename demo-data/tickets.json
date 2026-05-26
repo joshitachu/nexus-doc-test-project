@@ -1,0 +1,18 @@
+[
+  {
+    "id": "T-100",
+    "title": "Import job fails on large CSV",
+    "status": "open",
+    "priority": "normal",
+    "assignee": null,
+    "history": []
+  },
+  {
+    "id": "T-200",
+    "title": "Customer portal shows stale analytics",
+    "status": "triage",
+    "priority": "high",
+    "assignee": "mira",
+    "history": []
+  }
+]

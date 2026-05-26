@@ -1,0 +1,14 @@
+{
+  "name": "nexus-doc-test-project",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A deliberately small but dynamic codebase for documentation generation tests.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
