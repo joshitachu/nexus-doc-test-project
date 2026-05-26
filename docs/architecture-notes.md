@@ -14,6 +14,8 @@ Files ending in `.rule.js` inside `src/rules/` are loaded at runtime. A rule mus
 - `supports(event, ticket)`
 - `apply(event, ticket)`
 
+The current rule set handles escalation, resolution cleanup, and reopened tickets that may become stale.
+
 ## Persistence Boundary
 
 `JsonTicketStore` hides file IO from the workflow engine. The engine only expects `get(ticketId)` and `save(ticket)` methods.
