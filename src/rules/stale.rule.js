@@ -1,4 +1,4 @@
-const STALE_AFTER_DAYS = 7;
+const STALE_AFTER_DAYS = 8;
 
 export default {
   name: "stale-ticket-marker",
